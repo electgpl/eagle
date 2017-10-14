@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="6.5.0">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="yes"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="no" active="yes"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="no" active="yes"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="no" active="yes"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="no" active="yes"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="no" active="yes"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="no" active="yes"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="no" active="yes"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="no" active="yes"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="no" active="yes"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="no" active="yes"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="yes"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<description>LAB11 - Electrochemical gas sensors</description>
+<packages>
+<package name="3-ELECTRODE">
+<circle x="0" y="0" radius="10.239065625" width="0.127" layer="21"/>
+<pad name="W" x="0" y="6.75" drill="2.667"/>
+<pad name="C" x="6.75" y="0" drill="2.667"/>
+<pad name="R" x="-6.75" y="0" drill="2.667"/>
+<circle x="0" y="0" radius="9.091815625" width="0.127" layer="21"/>
+<text x="-2.54" y="1.27" size="1.27" layer="25">&gt;NAME</text>
+</package>
+<package name="SPEC">
+<wire x1="-7.5" y1="-7.5" x2="-7.5" y2="7.5" width="0.127" layer="21"/>
+<wire x1="-7.5" y1="7.5" x2="7.5" y2="7.5" width="0.127" layer="21"/>
+<wire x1="7.5" y1="7.5" x2="7.5" y2="-7.5" width="0.127" layer="21"/>
+<wire x1="7.5" y1="-7.5" x2="-7.5" y2="-7.5" width="0.127" layer="21"/>
+<smd name="P$1" x="-5.5" y="0" dx="4" dy="3" layer="1"/>
+<smd name="P$2" x="0" y="5.5" dx="4" dy="3" layer="1" rot="R90"/>
+<smd name="P$3" x="5.5" y="0" dx="4" dy="3" layer="1" rot="R180"/>
+</package>
+<package name="SPEC2">
+<wire x1="-7.65" y1="-1.15" x2="-7.65" y2="1.15" width="0.1" layer="20"/>
+<wire x1="-1.15" y1="7.65" x2="1.15" y2="7.65" width="0.1" layer="20"/>
+<wire x1="7.65" y1="1.15" x2="7.65" y2="-1.1" width="0.1" layer="20"/>
+<wire x1="1.15" y1="-7.6" x2="-1.15" y2="-7.6" width="0.1" layer="20"/>
+<polygon width="0.1524" layer="1">
+<vertex x="-7.65" y="2.7"/>
+<vertex x="-2.75" y="7.65"/>
+<vertex x="-7.65" y="7.65"/>
+</polygon>
+<polygon width="0.1524" layer="1">
+<vertex x="2.7" y="7.65"/>
+<vertex x="7.65" y="2.75"/>
+<vertex x="7.65" y="7.65"/>
+</polygon>
+<polygon width="0.1524" layer="1">
+<vertex x="-7.65" y="-2.7"/>
+<vertex x="-2.7" y="-7.65"/>
+<vertex x="-7.65" y="-7.65"/>
+</polygon>
+<polygon width="0.1524" layer="1">
+<vertex x="2.7" y="-7.65"/>
+<vertex x="7.65" y="-7.6"/>
+<vertex x="7.65" y="-2.7"/>
+</polygon>
+<pad name="C_1" x="-7.15" y="7.15" drill="0.3"/>
+<pad name="C_2" x="-4.15" y="7.15" drill="0.3"/>
+<pad name="C_3" x="-5.15" y="7.15" drill="0.3"/>
+<pad name="C_4" x="-6.15" y="7.15" drill="0.3"/>
+<pad name="C_5" x="-7.15" y="5.15" drill="0.3"/>
+<pad name="C_8" x="-7.15" y="6.15" drill="0.3"/>
+<pad name="C_10" x="-7.15" y="4.15" drill="0.3"/>
+<pad name="C_9" x="-6.15" y="5.15" drill="0.3"/>
+<pad name="C_6" x="-6.15" y="6.15" drill="0.3"/>
+<pad name="C_7" x="-5.15" y="6.15" drill="0.3"/>
+<pad name="W1_1" x="7.15" y="7.15" drill="0.3"/>
+<pad name="W1_2" x="6.15" y="7.15" drill="0.3"/>
+<pad name="W1_3" x="5.15" y="7.15" drill="0.3"/>
+<pad name="W1_4" x="4.15" y="7.15" drill="0.3"/>
+<pad name="W1_7" x="5.15" y="6.15" drill="0.3"/>
+<pad name="W1_6" x="6.15" y="6.15" drill="0.3"/>
+<pad name="W1_5" x="7.15" y="6.15" drill="0.3"/>
+<pad name="W1_8" x="7.15" y="5.15" drill="0.3"/>
+<pad name="W1_9" x="6.15" y="5.15" drill="0.3"/>
+<pad name="W1_10" x="7.15" y="4.15" drill="0.3"/>
+<pad name="R_1" x="-7.15" y="-7.15" drill="0.3"/>
+<pad name="R_2" x="-6.15" y="-7.15" drill="0.3"/>
+<pad name="R_7" x="-7.15" y="-6.15" drill="0.3"/>
+<pad name="R_3" x="-5.15" y="-7.15" drill="0.3"/>
+<pad name="R_4" x="-4.15" y="-7.15" drill="0.3"/>
+<pad name="R_5" x="-5.15" y="-6.15" drill="0.3"/>
+<pad name="R_6" x="-6.15" y="-6.15" drill="0.3"/>
+<pad name="R_9" x="-7.15" y="-5.15" drill="0.3"/>
+<pad name="R_8" x="-6.15" y="-5.15" drill="0.3"/>
+<pad name="R_10" x="-7.15" y="-4.15" drill="0.3"/>
+<pad name="W2_1" x="7.15" y="-7.15" drill="0.3"/>
+<pad name="W2_2" x="6.15" y="-7.15" drill="0.3"/>
+<pad name="W2_3" x="5.15" y="-7.15" drill="0.3"/>
+<pad name="W2_4" x="4.15" y="-7.15" drill="0.3"/>
+<pad name="W2_5" x="7.15" y="-6.15" drill="0.3"/>
+<pad name="W2_6" x="6.15" y="-6.15" drill="0.3"/>
+<pad name="W2_7" x="5.15" y="-6.15" drill="0.3"/>
+<pad name="W2_9" x="6.15" y="-5.15" drill="0.3"/>
+<pad name="W2_8" x="7.15" y="-5.15" drill="0.3"/>
+<pad name="W2_10" x="7.15" y="-4.15" drill="0.3"/>
+<circle x="9.1" y="-6.9" radius="0.316225" width="0.127" layer="21"/>
+<text x="-7.6" y="9.1" size="1.27" layer="25">&gt;NAME</text>
+<wire x1="-1.15" y1="7.65" x2="-1.15" y2="6.85" width="0.1" layer="20"/>
+<wire x1="1.15" y1="7.65" x2="1.15" y2="6.85" width="0.1" layer="20"/>
+<wire x1="-7.65" y1="1.15" x2="-6.55" y2="1.15" width="0.1" layer="20"/>
+<wire x1="-7.65" y1="-1.15" x2="-6.55" y2="-1.15" width="0.1" layer="20"/>
+<wire x1="7.65" y1="-1.1" x2="6.55" y2="-1.1" width="0.1" layer="20"/>
+<wire x1="7.65" y1="1.15" x2="6.55" y2="1.15" width="0.1" layer="20"/>
+<wire x1="-1.15" y1="-7.6" x2="-1.15" y2="-6.55" width="0.1" layer="20"/>
+<wire x1="1.15" y1="-7.6" x2="1.15" y2="-6.55" width="0.1" layer="20"/>
+<circle x="0" y="0.25" radius="6.25" width="0.1" layer="21"/>
+<wire x1="-6.55" y1="-1.15" x2="-1.15" y2="-6.55" width="0.1" layer="20" curve="70.083859"/>
+<wire x1="-1.15" y1="6.85" x2="-6.55" y2="1.15" width="0.1" layer="20" curve="74.284571"/>
+<wire x1="1.15" y1="6.85" x2="6.55" y2="1.15" width="0.1" layer="20" curve="-74.478281"/>
+<wire x1="1.15" y1="-6.55" x2="6.55" y2="-1.1" width="0.1" layer="20" curve="70.508697"/>
+<polygon width="0.1" layer="29">
+<vertex x="-7.7" y="7.7"/>
+<vertex x="-2.65" y="7.7"/>
+<vertex x="-2.65" y="7.65"/>
+<vertex x="-7.7" y="2.6"/>
+</polygon>
+<polygon width="0.1" layer="29">
+<vertex x="7.7" y="7.7"/>
+<vertex x="7.7" y="2.65"/>
+<vertex x="7.65" y="2.65"/>
+<vertex x="2.6" y="7.7"/>
+</polygon>
+<polygon width="0.1" layer="29">
+<vertex x="-7.7" y="-7.7"/>
+<vertex x="-7.7" y="-2.65"/>
+<vertex x="-7.65" y="-2.65"/>
+<vertex x="-2.6" y="-7.7"/>
+</polygon>
+<polygon width="0.1" layer="29">
+<vertex x="7.7" y="-7.7"/>
+<vertex x="2.65" y="-7.7"/>
+<vertex x="2.65" y="-7.65"/>
+<vertex x="7.7" y="-2.6"/>
+</polygon>
+</package>
+<package name="MICROCEL-CF">
+<smd name="WE" x="0" y="0" dx="2.8" dy="3" layer="16"/>
+<smd name="RE" x="-5" y="0" dx="2.8" dy="3" layer="16"/>
+<smd name="CE" x="5" y="0" dx="2.8" dy="3" layer="16"/>
+<wire x1="-8.5" y1="0" x2="8.5" y2="0" width="0.127" layer="21"/>
+<wire x1="8.5" y1="0" x2="8.5" y2="-17" width="0.127" layer="21"/>
+<wire x1="8.5" y1="-17" x2="-8.5" y2="-17" width="0.127" layer="21"/>
+<wire x1="-8.5" y1="-17" x2="-8.5" y2="0" width="0.127" layer="21"/>
+<circle x="0" y="-9.7" radius="3.3015125" width="0.127" layer="20"/>
+</package>
+</packages>
+<symbols>
+<symbol name="3E">
+<wire x1="-10.16" y1="12.7" x2="-10.16" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-12.7" x2="10.16" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-12.7" x2="10.16" y2="12.7" width="0.254" layer="94"/>
+<wire x1="10.16" y1="12.7" x2="-10.16" y2="12.7" width="0.254" layer="94"/>
+<pin name="R" x="15.24" y="7.62" length="middle" rot="R180"/>
+<pin name="W" x="15.24" y="0" length="middle" rot="R180"/>
+<pin name="C" x="15.24" y="-7.62" length="middle" rot="R180"/>
+<text x="-7.62" y="-5.08" size="1.778" layer="95">GAS</text>
+<text x="-7.62" y="-7.62" size="1.778" layer="95">SENSOR</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="3-ELECTRODE-GAS-SENSOR">
+<description>3 electrode electrochemical CO sensor</description>
+<gates>
+<gate name="G$1" symbol="3E" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="3-ELECTRODE">
+<connects>
+<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="G$1" pin="R" pad="R"/>
+<connect gate="G$1" pin="W" pad="W"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MANUFACTURER" value="Wearnes Cambion" constant="no"/>
+<attribute name="MANUFACTURER#" value="450-3326" constant="no"/>
+<attribute name="QTY-PER-DEVICE" value="3" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SPECSENSOR">
+<description>Three Electrod Gas Sensor</description>
+<gates>
+<gate name="G$1" symbol="3E" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SPEC2">
+<connects>
+<connect gate="G$1" pin="C" pad="C_1 C_2 C_3 C_4 C_5 C_6 C_7 C_8 C_9 C_10"/>
+<connect gate="G$1" pin="R" pad="R_1 R_2 R_3 R_4 R_5 R_6 R_7 R_8 R_9 R_10"/>
+<connect gate="G$1" pin="W" pad="W1_1 W1_2 W1_3 W1_4 W1_5 W1_6 W1_7 W1_8 W1_9 W1_10 W2_1 W2_2 W2_3 W2_4 W2_5 W2_6 W2_7 W2_8 W2_9 W2_10"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MICROCEL-CF">
+<description>MICROCEL-CF Gas Sensor mady by CityTech</description>
+<gates>
+<gate name="G$1" symbol="3E" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="MICROCEL-CF">
+<connects>
+<connect gate="G$1" pin="C" pad="CE"/>
+<connect gate="G$1" pin="R" pad="RE"/>
+<connect gate="G$1" pin="W" pad="WE"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>
