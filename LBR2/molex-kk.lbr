@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="8.2.2">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="yes"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="no" active="yes"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="no" active="yes"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="no" active="yes"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="no" active="yes"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="no" active="yes"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="no" active="yes"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="no" active="yes"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="no" active="yes"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="no" active="yes"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="no" active="yes"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="yes"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<packages>
+<package name="KK-V-3">
+<description>&lt;h3&gt;Molex KK connector, male, 3-pin, vertical&lt;/h3&gt;
+
+&lt;p&gt;Part #22-05-XXXX (tin) and 22-12-XXXX (gold)&lt;/p&gt;</description>
+<wire x1="-3.175" y1="3.81" x2="3.175" y2="3.81" width="0.127" layer="21"/>
+<wire x1="3.175" y1="3.81" x2="3.175" y2="-3.81" width="0.127" layer="21"/>
+<wire x1="3.175" y1="-3.81" x2="-3.175" y2="-3.81" width="0.127" layer="21"/>
+<wire x1="-3.175" y1="-3.81" x2="-3.175" y2="3.81" width="0.127" layer="21"/>
+<pad name="2" x="0" y="0" drill="1.1684"/>
+<pad name="1" x="0" y="2.54" drill="1.1684" shape="square"/>
+<pad name="3" x="0" y="-2.54" drill="1.1684"/>
+<text x="-1.27" y="-0.9525" size="1.27" layer="21" rot="R90">&gt;NAME</text>
+<rectangle x1="1.5875" y1="-2.8575" x2="3.175" y2="2.8575" layer="21"/>
+</package>
+<package name="KK-H-3">
+<description>&lt;h3&gt;Molex KK connector, male, 3-pin, horizontal&lt;/h3&gt;
+
+&lt;p&gt;Part #22-05-XXXX (tin) and 22-12-XXXX (gold)&lt;/p&gt;</description>
+<wire x1="-1.27" y1="3.81" x2="6.35" y2="3.81" width="0.127" layer="21"/>
+<wire x1="6.35" y1="3.81" x2="6.35" y2="2.54" width="0.127" layer="21"/>
+<wire x1="6.35" y1="2.54" x2="11.43" y2="2.54" width="0.127" layer="21"/>
+<wire x1="11.43" y1="2.54" x2="11.43" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="11.43" y1="-2.54" x2="6.35" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="6.35" y1="-2.54" x2="6.35" y2="-3.81" width="0.127" layer="21"/>
+<wire x1="6.35" y1="-3.81" x2="-1.27" y2="-3.81" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="-3.81" x2="-1.27" y2="3.81" width="0.127" layer="21"/>
+<pad name="2" x="0" y="0" drill="1.1684"/>
+<pad name="1" x="0" y="2.54" drill="1.1684" shape="square"/>
+<pad name="3" x="0" y="-2.54" drill="1.1684"/>
+<text x="5.08" y="-0.635" size="1.27" layer="21">&gt;NAME</text>
+<rectangle x1="3.175" y1="-3.81" x2="4.7625" y2="3.81" layer="21"/>
+</package>
+<package name="KK-V-2-SQ">
+<description>&lt;h3&gt;Molex KK connector, male, 2-pin, 0.1" spacing, vertical, pad 1 square&lt;/h3&gt;
+
+&lt;p&gt;Part #22-05-XXXX (tin) and 22-12-XXXX (gold)&lt;/p&gt;</description>
+<wire x1="-3.175" y1="2.54" x2="3.175" y2="2.54" width="0.127" layer="21"/>
+<wire x1="3.175" y1="2.54" x2="3.175" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="3.175" y1="-2.54" x2="-3.175" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="-3.175" y1="-2.54" x2="-3.175" y2="2.54" width="0.127" layer="21"/>
+<pad name="2" x="0" y="-1.27" drill="1.1684"/>
+<pad name="1" x="0" y="1.27" drill="1.1684" shape="square"/>
+<text x="-1.27" y="-0.9525" size="1.27" layer="21" rot="R90">&gt;NAME</text>
+<rectangle x1="1.905" y1="-1.778" x2="3.175" y2="1.778" layer="21"/>
+</package>
+<package name="KK-H-2">
+<description>&lt;h3&gt;Molex KK connector, male, 2-pin, horizontal&lt;/h3&gt;
+
+&lt;p&gt;Part #22-05-XXXX (tin) and 22-12-XXXX (gold)&lt;/p&gt;</description>
+<wire x1="-6.35" y1="2.54" x2="0" y2="2.54" width="0.127" layer="21"/>
+<wire x1="0" y1="-2.54" x2="-6.35" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="-6.35" y1="-2.54" x2="-6.35" y2="2.54" width="0.127" layer="21"/>
+<pad name="2" x="-5.08" y="-1.27" drill="1.1684"/>
+<pad name="1" x="-5.08" y="1.27" drill="1.1684" shape="square"/>
+<text x="0.635" y="-0.635" size="1.27" layer="21">&gt;NAME</text>
+<rectangle x1="-1.905" y1="-2.54" x2="-0.254" y2="2.54" layer="21"/>
+</package>
+<package name="KK-H-4">
+<description>&lt;h3&gt;Molex KK connector, male, 4-pin, horizontal&lt;/h3&gt;
+
+&lt;p&gt;Part #22-05-XXXX (tin) and 22-12-XXXX (gold)&lt;/p&gt;</description>
+<wire x1="-3.81" y1="3.81" x2="3.81" y2="3.81" width="0.127" layer="21"/>
+<wire x1="3.81" y1="3.81" x2="3.81" y2="2.54" width="0.127" layer="21"/>
+<wire x1="3.81" y1="2.54" x2="8.89" y2="2.54" width="0.127" layer="21"/>
+<wire x1="8.89" y1="2.54" x2="8.89" y2="-5.08" width="0.127" layer="21"/>
+<wire x1="8.89" y1="-5.08" x2="3.81" y2="-5.08" width="0.127" layer="21"/>
+<wire x1="3.81" y1="-5.08" x2="3.81" y2="-6.35" width="0.127" layer="21"/>
+<wire x1="3.81" y1="-6.35" x2="-3.81" y2="-6.35" width="0.127" layer="21"/>
+<wire x1="-3.81" y1="-6.35" x2="-3.81" y2="3.81" width="0.127" layer="21"/>
+<pad name="2" x="-2.54" y="0" drill="1.1684"/>
+<pad name="1" x="-2.54" y="2.54" drill="1.1684" shape="square"/>
+<pad name="3" x="-2.54" y="-2.54" drill="1.1684"/>
+<pad name="4" x="-2.54" y="-5.08" drill="1.1684"/>
+<text x="2.54" y="-1.905" size="1.27" layer="21">&gt;NAME</text>
+<rectangle x1="0.635" y1="-6.35" x2="2.286" y2="3.81" layer="21"/>
+</package>
+<package name="KK-V-4">
+<description>&lt;h3&gt;Molex KK connector, male, 4-pin, vertical&lt;/h3&gt;
+
+&lt;p&gt;Part #22-05-XXXX (tin) and 22-12-XXXX (gold)&lt;/p&gt;</description>
+<wire x1="-3.175" y1="5.08" x2="3.175" y2="5.08" width="0.127" layer="21"/>
+<wire x1="3.175" y1="5.08" x2="3.175" y2="-5.08" width="0.127" layer="21"/>
+<wire x1="3.175" y1="-5.08" x2="-3.175" y2="-5.08" width="0.127" layer="21"/>
+<wire x1="-3.175" y1="-5.08" x2="-3.175" y2="5.08" width="0.127" layer="21"/>
+<pad name="2" x="0" y="1.27" drill="1.1684"/>
+<pad name="1" x="0" y="3.81" drill="1.1684" shape="square"/>
+<pad name="3" x="0" y="-1.27" drill="1.1684"/>
+<pad name="4" x="0" y="-3.81" drill="1.1684"/>
+<text x="-1.27" y="-0.9525" size="1.27" layer="21" rot="R90">&gt;NAME</text>
+<rectangle x1="1.524" y1="-3.937" x2="3.175" y2="3.937" layer="21"/>
+</package>
+<package name="KK-V-3CH">
+<description>&lt;h3&gt;Molex KK connector, male, 4-pin, vertical&lt;/h3&gt;
+
+&lt;p&gt;Part #22-05-XXXX (tin) and 22-12-XXXX (gold)&lt;/p&gt;
+
+&lt;p&gt;Specialized for PIMETA v2 inputs&lt;/p&gt;</description>
+<wire x1="-3.81" y1="-3.175" x2="-3.81" y2="3.175" width="0.127" layer="21"/>
+<wire x1="-3.81" y1="3.175" x2="3.81" y2="3.175" width="0.127" layer="21"/>
+<wire x1="3.81" y1="3.175" x2="3.81" y2="-3.175" width="0.127" layer="21"/>
+<wire x1="3.81" y1="-3.175" x2="-3.81" y2="-3.175" width="0.127" layer="21"/>
+<pad name="2" x="0" y="0" drill="1.1684" rot="R90"/>
+<pad name="1" x="-2.54" y="0" drill="1.1684" rot="R90"/>
+<pad name="3" x="2.54" y="0" drill="1.1684" rot="R90"/>
+<text x="-3.175" y="-2.54" size="1.27" layer="21" ratio="12">IL</text>
+<text x="-0.762" y="-2.54" size="1.27" layer="21" ratio="12">IR</text>
+<text x="1.778" y="-2.54" size="1.27" layer="21" ratio="12">IG</text>
+<text x="-3.302" y="-4.826" size="1.27" layer="25" ratio="12">&gt;NAME</text>
+<rectangle x1="-2.667" y1="1.524" x2="2.667" y2="3.175" layer="21"/>
+</package>
+<package name="KK-V-2-RND">
+<description>&lt;h3&gt;Molex KK connector, male, 2-pin, vertical, both pads round&lt;/h3&gt;
+
+&lt;p&gt;Part #22-05-XXXX (tin) and 22-12-XXXX (gold)&lt;/p&gt;</description>
+<wire x1="-3.175" y1="2.54" x2="3.175" y2="2.54" width="0.127" layer="21"/>
+<wire x1="3.175" y1="2.54" x2="3.175" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="3.175" y1="-2.54" x2="-3.175" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="-3.175" y1="-2.54" x2="-3.175" y2="2.54" width="0.127" layer="21"/>
+<pad name="2" x="0" y="-1.27" drill="1.1684"/>
+<pad name="1" x="0" y="1.27" drill="1.1684"/>
+<text x="-1.27" y="-0.9525" size="1.27" layer="21" rot="R90">&gt;NAME</text>
+<rectangle x1="1.905" y1="-1.778" x2="3.175" y2="1.778" layer="21"/>
+</package>
+<package name="KK156-V-2-SQ">
+<description>&lt;h3&gt;Molex KK connector, male, 2-pin, 0.156" spacing, vertical, pad 1 square&lt;/h3&gt;
+
+&lt;p&gt;Part #26-60-XXXX (tin) and 26-61-XXXX (gold)&lt;/p&gt;</description>
+<wire x1="-5" y1="3.9" x2="5" y2="3.9" width="0.127" layer="21"/>
+<wire x1="5" y1="3.9" x2="5" y2="-3.9" width="0.127" layer="21"/>
+<wire x1="5" y1="-3.9" x2="-5" y2="-3.9" width="0.127" layer="21"/>
+<wire x1="-5" y1="-3.9" x2="-5" y2="3.9" width="0.127" layer="21"/>
+<pad name="2" x="0" y="-2" drill="1.75"/>
+<pad name="1" x="0" y="2" drill="1.75" shape="square"/>
+<text x="-2.4" y="-2.8" size="1.27" layer="21" rot="R90">&gt;NAME</text>
+<rectangle x1="3.6" y1="-2" x2="5" y2="2" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="3WAY">
+<wire x1="-3.175" y1="4.445" x2="1.905" y2="4.445" width="0.254" layer="94"/>
+<wire x1="1.905" y1="4.445" x2="1.905" y2="-4.445" width="0.254" layer="94"/>
+<wire x1="1.905" y1="-4.445" x2="-3.175" y2="-4.445" width="0.254" layer="94"/>
+<wire x1="-3.175" y1="-4.445" x2="-3.175" y2="4.445" width="0.254" layer="94"/>
+<circle x="-0.635" y="2.54" radius="0.635" width="0.254" layer="94"/>
+<circle x="-0.635" y="0" radius="0.635" width="0.254" layer="94"/>
+<circle x="-0.635" y="-2.54" radius="0.635" width="0.254" layer="94"/>
+<text x="-3.81" y="-1.27" size="1.778" layer="95" rot="R90">&gt;NAME</text>
+<pin name="1" x="5.08" y="2.54" visible="pad" length="middle" rot="R180"/>
+<pin name="2" x="5.08" y="0" visible="pad" length="middle" rot="R180"/>
+<pin name="3" x="5.08" y="-2.54" visible="pad" length="middle" rot="R180"/>
+</symbol>
+<symbol name="2WAY">
+<wire x1="-3.175" y1="1.905" x2="1.905" y2="1.905" width="0.254" layer="94"/>
+<wire x1="1.905" y1="1.905" x2="1.905" y2="-4.445" width="0.254" layer="94"/>
+<wire x1="1.905" y1="-4.445" x2="-3.175" y2="-4.445" width="0.254" layer="94"/>
+<wire x1="-3.175" y1="-4.445" x2="-3.175" y2="1.905" width="0.254" layer="94"/>
+<circle x="-0.635" y="0" radius="0.635" width="0.254" layer="94"/>
+<circle x="-0.635" y="-2.54" radius="0.635" width="0.254" layer="94"/>
+<text x="-3.81" y="-2.54" size="1.778" layer="95" rot="R90">&gt;NAME</text>
+<pin name="1" x="5.08" y="0" visible="pad" length="middle" rot="R180"/>
+<pin name="2" x="5.08" y="-2.54" visible="pad" length="middle" rot="R180"/>
+</symbol>
+<symbol name="4WAY">
+<wire x1="-3.175" y1="6.985" x2="1.905" y2="6.985" width="0.254" layer="94"/>
+<wire x1="1.905" y1="6.985" x2="1.905" y2="-4.445" width="0.254" layer="94"/>
+<wire x1="1.905" y1="-4.445" x2="-3.175" y2="-4.445" width="0.254" layer="94"/>
+<wire x1="-3.175" y1="-4.445" x2="-3.175" y2="6.985" width="0.254" layer="94"/>
+<circle x="-0.635" y="5.08" radius="0.635" width="0.254" layer="94"/>
+<circle x="-0.635" y="2.54" radius="0.635" width="0.254" layer="94"/>
+<circle x="-0.635" y="0" radius="0.635" width="0.254" layer="94"/>
+<circle x="-0.635" y="-2.54" radius="0.635" width="0.254" layer="94"/>
+<text x="-3.81" y="-2.54" size="1.778" layer="95" rot="R90">&gt;NAME</text>
+<pin name="1" x="5.08" y="5.08" visible="pad" length="middle" rot="R180"/>
+<pin name="2" x="5.08" y="2.54" visible="pad" length="middle" rot="R180"/>
+<pin name="3" x="5.08" y="0" visible="pad" length="middle" rot="R180"/>
+<pin name="4" x="5.08" y="-2.54" visible="pad" length="middle" rot="R180"/>
+</symbol>
+<symbol name="INPUT">
+<wire x1="-5.08" y1="1.905" x2="8.255" y2="1.905" width="0.254" layer="94"/>
+<wire x1="8.255" y1="1.905" x2="10.16" y2="0" width="0.254" layer="94"/>
+<wire x1="10.16" y1="0" x2="8.255" y2="-1.905" width="0.254" layer="94"/>
+<wire x1="8.255" y1="-1.905" x2="-5.08" y2="-1.905" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-1.905" x2="-5.08" y2="1.905" width="0.254" layer="94"/>
+<text x="-3.683" y="-0.762" size="1.778" layer="95">&gt;NAME</text>
+<pin name="P$1" x="12.7" y="0" visible="off" length="short" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="KK3*">
+<description>&lt;h3&gt;Molex KK&lt;/h3&gt;
+
+&lt;p&gt;3-pin connector, 100 mil pin spacing&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="3WAY" x="-2.54" y="0"/>
+</gates>
+<devices>
+<device name="H" package="KK-H-3">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="V" package="KK-V-3">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="KK2*">
+<description>&lt;h3&gt;Molex KK&lt;/h3&gt;
+
+&lt;p&gt;2-pin connector, 100 mil pin spacing&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="2WAY" x="0" y="2.54"/>
+</gates>
+<devices>
+<device name="HSQ" package="KK-H-2">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="VSQ" package="KK-V-2-SQ">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="VRND" package="KK-V-2-RND">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="VSQ156" package="KK156-V-2-SQ">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="KK4*">
+<description>Molex KK 4-pin</description>
+<gates>
+<gate name="G$1" symbol="4WAY" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="3CH_AMP_INPUTS">
+<description>&lt;h3&gt;3-channel amplifier input set&lt;/h3&gt;
+
+&lt;p&gt;Created for PIMETA v2.0, but should work for any 3-channel amplifier&lt;/p&gt;</description>
+<gates>
+<gate name="IL" symbol="INPUT" x="-12.7" y="5.08"/>
+<gate name="IR" symbol="INPUT" x="-12.7" y="0"/>
+<gate name="IG" symbol="INPUT" x="-12.7" y="-5.08"/>
+</gates>
+<devices>
+<device name="" package="KK-V-3CH">
+<connects>
+<connect gate="IG" pin="P$1" pad="3"/>
+<connect gate="IL" pin="P$1" pad="1"/>
+<connect gate="IR" pin="P$1" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>
